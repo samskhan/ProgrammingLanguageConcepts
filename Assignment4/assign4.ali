@@ -1,0 +1,68 @@
+V "GNAT Lib v4.9"
+M P W=b
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV SPARK_05
+
+U assign4%b		assign4.adb		39df27a7 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D assign4.adb		20180426174858 01b2d273
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20160213141829 90249111
+D s-conca2.ads		20140225151544 02a0d7d0
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 9|3r6 4r5
+X 7 a-textio.ads
+49K13*Text_IO 471e16 9|3w10 4r9
+240U14*Get 9|74s1 76s1 78s1
+263U14*Put_Line 9|72s1 73s1 75s1 77s1 79s1 80s1 81s1 82s1
+X 9 assign4.adb
+7U11*assign4 7b11 84l5 84t12
+9a9 Author{string} 17r16 44m1 74m5 80r23
+10a9 Title{string} 26r16 55m1 76m5 81r22
+11a9 pages{string} 34r16 65m1 78m5 82r22
+13V10 getAuthor{string} 13b10 19l5 19t14
+22V10 getTitle{string} 22b10 28l5 28t13
+30V10 getPages{string} 30b10 36l5 36t13
+39U11 setAuthor 39b11 39>21 47l5 47t14
+39s21 A{string} 44r10
+50U11 setTitle 50b11 50>20 58l5 58t13
+50s20 A{string} 55r9
+60U11 setPages 60b11 60>20 68l5 68t13
+60s20 A{string} 65r9
+
